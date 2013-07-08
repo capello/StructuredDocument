@@ -1,0 +1,4 @@
+[Project]
+Name=StructuredDocument
+Manager=KDevCMakeManager
+VersionControl=kdevgit
