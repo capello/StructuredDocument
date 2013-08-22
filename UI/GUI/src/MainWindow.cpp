@@ -1,7 +1,7 @@
 #include "MainWindow.h"
 #include <QtGui>
 
-StructuredDocument::MainWindow::MainWindow(QWidget *parent):QMainWindow(parent)
+StructuredDocument::MainWindow::MainWindow(QWidget *parent):QMainWindow(parent),m_helpViewer(this)
 {
   
 }

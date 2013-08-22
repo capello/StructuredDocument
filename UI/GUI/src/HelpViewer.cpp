@@ -1,6 +1,6 @@
 #include "HelpViewer.h"
 
-StructuredDocument::HelpViewer::HelpViewer(QWitget *parent):QTextEdit(parent)
+StructuredDocument::HelpViewer::HelpViewer(QWidget *parent):QTextEdit(parent)
 {
 }
 
