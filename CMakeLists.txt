@@ -8,3 +8,5 @@ INCLUDE(${QT_USE_FILE})
 ADD_DEFINITIONS(${QT_DEFINITIONS})
 
 add_subdirectory(UI)
+
+add_subdirectory(Tests)
