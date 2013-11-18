@@ -6,6 +6,7 @@
 #include "HelpViewer.h"
 #include "DocumentEditor.h"
 #include "ViewStructureWidget.h"
+#include "Menu.h"
 
 namespace StructuredDocument
 {
@@ -17,13 +18,14 @@ namespace StructuredDocument
     MainWindow(QWidget *parent=0);
     ~MainWindow();
     
-  public slots:
+  signals:
     void setHelp(QString p_title, QString p_help);
     
   private:
     HelpViewer *m_helpViewer;
     DocumentEditor *m_editor;
     ViewStructureWidget *m_viewStructure;
+    Menu * m_menu;
   };
 };
 

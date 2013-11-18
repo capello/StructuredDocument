@@ -5,6 +5,9 @@ class TestHelpViewer: public QObject
 {
   Q_OBJECT
   
+public:
+    TestHelpViewer(QObject* parent = 0):m_helpViewer(0) {};
+  
 private slots:
   void initHelpViewer();
   
