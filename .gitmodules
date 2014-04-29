@@ -1,0 +1,3 @@
+[submodule "depends/FSM"]
+	path = depends/FSM
+	url = git@github.com:capello/FSM.git
